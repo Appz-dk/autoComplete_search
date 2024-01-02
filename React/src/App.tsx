@@ -13,9 +13,6 @@ function App() {
   return (
     <>
       <div>
-        {filterValue}
-      </div>
-      <div>
         <h1>Search with auto complete suggestions</h1>
         <form onSubmit={e => e.preventDefault()}>
           <label htmlFor='filter'>
